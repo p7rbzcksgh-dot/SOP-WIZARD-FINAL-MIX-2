@@ -1,0 +1,24 @@
+Files included at package root:
+FILE_LIST.txt
+QA_CHECKS.txt
+README_UPLOAD_ROOT_ONLY.txt
+app.js
+apple-touch-icon.png
+create-sop.html
+index.html
+manifest.json
+saved-sops.html
+service-worker.js
+sop-update-schedule.html
+sop-wizard-desktop-icon.png
+staticwebapp.config.json
+styles.css
+tcg-app-icon-192.png
+tcg-app-icon.png
+tcg-cogs-branding.png
+tcg-logo-transparent.png
+templates.html
+wizard-bg-desktop.webp
+wizard-bg-mobile.webp
+wizard-bg-tablet.webp
+wizard-source.webp

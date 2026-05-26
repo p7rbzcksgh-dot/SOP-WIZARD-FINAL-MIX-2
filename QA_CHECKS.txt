@@ -1,0 +1,12 @@
+QA CHECKS COMPLETED
+
+- ZIP package is flat: no folders inside.
+- index.html is present at package root.
+- create-sop.html is present at package root.
+- styles.css and app.js are present at package root.
+- wizard-source.webp is present and referenced by CSS for the background.
+- tcg-app-icon.png and tcg-app-icon-192.png are present and referenced by manifest/HTML.
+- Dashboard has four primary links: Create A New SOP, Templates, Saved SOPs, SOP Update Schedule.
+- Create SOP page keeps parts inside each step card.
+- Add Step, Add Part Line, photo upload, Save Draft, Export HTML, and Print / Save PDF buttons are included.
+- Service worker cache clearing is enabled to reduce stale GitHub Pages loads.

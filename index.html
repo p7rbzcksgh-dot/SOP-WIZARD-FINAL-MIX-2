@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#050505">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="SOP Wizard">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="tcg-app-icon.png">
+<link rel="apple-touch-icon" href="tcg-app-icon.png">
+<link rel="stylesheet" href="styles.css?v=bugfix-05">
+<title>TCG SOP Wizard</title>
+<meta name="description" content="TCG Machines SOP Wizard dashboard.">
+</head>
+<body class="dashboard-page">
+  <div class="wizard-bg" aria-hidden="true"></div>
+  <div class="stage home-stage">
+    <header class="topbar home-topbar">
+    <button class="chrome-icon" type="button" data-menu-toggle aria-label="Open menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <a class="brand-mark" href="index.html" aria-label="TCG SOP Wizard home"><img src="tcg-logo-transparent.png" alt="TCG Machines"></a>
+    <button class="chrome-icon" type="button" aria-label="Lock screen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 11V8a5 5 0 0 1 10 0v3"/><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M12 15v2"/></svg></button>
+  </header>
+    <main class="home-main">
+      <section class="home-copy" aria-label="App title">
+        <h1>TCG SOP WIZARD</h1>
+        <p class="home-subtitle">SOP DASHBOARD</p>
+        <p class="kaizen">Transparency, Accountability, Kaizen</p>
+      </section>
+      <nav class="home-nav" aria-label="Main SOP Wizard navigation">
+        <a class="home-action primary-action" href="create-sop.html">
+          <span class="round-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          <span class="home-action-text"><strong>Create A New SOP</strong><small>Build, document, and export a new SOP.</small></span>
+          <span class="chev"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></span>
+        </a>
+        <a class="home-action slim-action" href="templates.html"><span class="line-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6M8 13h8M8 17h6M8 9h2"/></svg></span><strong>Templates</strong><span class="chev"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></span></a>
+        <a class="home-action slim-action" href="saved-sops.html"><span class="line-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h5l2 2h7a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/></svg></span><strong>Saved SOPs</strong><span class="chev"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></span></a>
+        <a class="home-action slim-action" href="sop-update-schedule.html"><span class="line-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2v4M17 2v4M4 9h16M6 4h12a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z"/><path d="M8 13h.01M12 13h.01M16 13h.01M8 17h.01M12 17h.01"/></svg></span><strong>SOP Update Schedule</strong><span class="chev"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></span></a>
+      </nav>
+    </main>
+  </div>
+  <aside class="side-menu" id="sideMenu" aria-hidden="true">
+  <button class="menu-close" type="button" data-menu-close aria-label="Close menu">×</button>
+  <img src="tcg-logo-transparent.png" alt="TCG Machines" class="side-logo">
+  <a href="index.html">Dashboard</a>
+  <a href="create-sop.html">Create A New SOP</a>
+  <a href="templates.html">Templates</a>
+  <a href="saved-sops.html">Saved SOPs</a>
+  <a href="sop-update-schedule.html">SOP Update Schedule</a>
+</aside>
+<div class="menu-shade" data-menu-close></div>
+  <script src="app.js?v=bugfix-05"></script>
+</body>
+</html>
